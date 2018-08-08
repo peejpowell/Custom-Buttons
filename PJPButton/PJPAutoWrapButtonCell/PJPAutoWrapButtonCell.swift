@@ -73,7 +73,7 @@ enum PJPButtonStyle: Int
             let buttonFrameRect = NSRect(x: frame.origin.x+2, y: frame.origin.y+2, width: frame.size.width - 4, height: frame.size.height - 4)
             let buttonBack = NSBezierPath(roundedRect: buttonFrameRect, xRadius: rad, yRadius: rad)
             let buttonHilightRectTop = NSRect(x: rad/(divider*2), y: frame.origin.y+5, width: frame.size.width-(rad/(divider)), height: frame.size.height/2)
-            let buttonHilightRectBot = NSRect(x: frame.origin.x+(frame.size.height/6), y: frame.origin.y+(frame.size.height/2)-5, width: frame.size.width-(frame.size.height/3), height: frame.size.height/2)
+            //let buttonHilightRectBot = NSRect(x: frame.origin.x+(frame.size.height/6), y: frame.origin.y+(frame.size.height/2)-5, width: frame.size.width-(frame.size.height/3), height: frame.size.height/2)
             let buttonHilightRect = NSRect(x: frame.origin.x+2, y: frame.origin.y+2, width: frame.size.width - 4, height: frame.size.height - 4)
             let buttonHilight = NSBezierPath(roundedRect: buttonHilightRect, xRadius: rad, yRadius: rad)
             let buttonHilightTop = NSBezierPath(roundedRect: buttonHilightRectTop, xRadius: rad, yRadius: rad)

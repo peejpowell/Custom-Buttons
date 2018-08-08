@@ -194,7 +194,7 @@ extension PJPAutoWrapButtonCell {
             return (stringToWrap, 1)
         }
         var wrappedString = ""
-        let stringSize : NSSize = stringToWrap.size(withAttributes: attributes)
+        //let stringSize : NSSize = stringToWrap.size(withAttributes: attributes)
         let spaceLocations : [String.Index] = findSpaces(inString: stringToWrap)
         var newString = ""
         var startLoc = stringToWrap.startIndex

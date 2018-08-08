@@ -29,8 +29,8 @@ extension PJPButton {
             if let style = cell.buttonStyle {
                 switch style {
                 case .toggle:
-                    var newHeight = 50
-                    var newWidth = 200
+                    let newHeight = 50
+                    let newWidth = 200
                     return CGSize(width: newWidth, height: newHeight)
                 default:
                     break
